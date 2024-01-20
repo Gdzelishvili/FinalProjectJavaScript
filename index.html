@@ -33,7 +33,7 @@
                     <li class="header_li">
                         <a href="artworks.html" class="header_a hover_effect">Artworks</a>
                     </li>
-                    <li class="header_li"><a href="contact.html" class="header_a hover_effect">Contact</a>
+                    <li class="header_li"><a href="contact.html" class="header_a hover_effect">About us</a>
                     </li>
                 </ul>
             </nav>
@@ -43,7 +43,7 @@
             </a>
 
             <div class="header_button_div">
-                <button class="header_button hover_effect">Sign In</button>
+                <a href=""><button class="header_button hover_effect">Sign In</button></a>
                 <i class="fa-solid fa-cart-shopping scale_style"></i>
             </div>
         </header>
@@ -66,7 +66,7 @@
         <section class="section2">
 
             <!-- zeda divi  -->
-            <div class="section2_pics">
+            <!-- <div class="section2_pics">
                 <div class="pic_div scale_style">
                     <img src="images/sec2 pic 1.png" alt="pottery" class="images_section2">
                     <p class="sec2_pic_t">Pottery Classes</p>
@@ -74,12 +74,45 @@
                 <div class="pic_div scale_style">
                     <img src="images/sec2 pic 2.png" alt="pottery" class="images_section2">
                     <p class="sec2_pic_t">Design Process</p>
+                </div> -->
+                <!-- slide show -->
+                <div class="slideshow-container">
+
+                    <div class="myPictures fade">
+                        <div class="textNumber"> 1 / 3 </div>
+                        <img src="images/sec2 pic 1.png" style="width: 100%">
+                        <div class="pictureText">Pottery Classes</div>
+                    </div>
+        
+                    <div class="myPictures fade">
+                        <div class="textNumber"> 2 / 3 </div>
+                        <img src="images/sec2 pic 2.png" style="width: 100%">
+                        <div class="pictureText">Design Process</div>
+                    </div>
+        
+                    <div class="myPictures fade">
+                        <div class="textNumber"> 3 / 3 </div>
+                        <img src="images/sec2 pic 3.png" style="width: 100%">
+                        <div class="pictureText">Gift Pottery</div>
+                    </div>
+        
+                    <a class="previous" onclick="moveSlides(-1)">&#60;</a>
+                    <a class="next" onclick="moveSlides(1)">&#62;</a>
+        
+                </div>
+                <br>
+
+                <!-- dotss -->
+                <div style="text-align: center;">
+                    <span class="dot active" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
                 </div>
             </div>
 
             <!-- qvemot chamomsvleli divi -->
 
-            <div class="section2_pics">
+            <!-- <div class="section2_pics">
                 <div class="pic_div scale_style">
                     <img src="images/sec2 pic 3.png" alt="tee" class="images_section2">
                     <p class="sec2_pic_t">Gift Pottery</p>
@@ -88,7 +121,7 @@
                     <img src="images/sec 2 pic 4.png" alt="brashes" class="images_section2">
                     <p class="sec2_pic_t">Ceramic Painting</p>
                 </div>
-            </div>
+            </div> -->
         </section>
 
         <!-- section3  -->
