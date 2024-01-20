@@ -1,0 +1,145 @@
+@media (max-width: 450px) {
+  /* header  */
+  header {
+    padding-inline: 16px;
+  }
+
+  .header_nav {
+    top: 91px;
+  }
+
+  .header_button_div {
+    column-gap: 8px;
+  }
+
+  .fa-bars,
+  .fa-cart-shopping {
+    font-size: 20px;
+  }
+
+  /* background image section */
+
+  .section1 {
+    height: 400px;
+    background-image: url(../images/p1\ cover1\ smole\ size.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .section1_h2 {
+    font-size: 20px;
+  }
+
+  .section1_p {
+    font-size: 14px;
+  }
+
+  /* section2  */
+
+  .section2 {
+    margin-top: 64px;
+    margin-bottom: 64px;
+    column-gap: 20px;
+  }
+
+  .images_section2 {
+    width: 138px;
+  }
+
+  .section2_pics {
+    column-gap: 20px;
+  }
+
+  .sec2_pic_t {
+    font-size: 15px;
+  }
+
+  /* section4  */
+
+  .section4 {
+    padding: 64px 24px;
+  }
+
+  /* second background section */
+
+  .sec5_input {
+    width: 200px;
+  }
+
+  .sec5_button {
+    width: 110px;
+    padding-inline: 7px;
+    font-size: 14px;
+  }
+
+  /* section6  */
+
+  .section6 {
+    padding: 64px 24px;
+  }
+
+  .help_button {
+    font-size: 17px;
+  }
+
+  /* page 2 background image section */
+
+  .cover_section1 {
+    height: 400px;
+    background-image: url(../images/p2\ cover\ 1\ small\ size.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .p2_cover_t {
+    font-size: 24px;
+    text-wrap: nowrap;
+  }
+
+  .p2_form_input {
+    width: 200px;
+  }
+
+  .p2_button {
+    width: 90px;
+    padding-inline: 10px;
+    font-size: 14px;
+  }
+
+/* p3 cover change picture */
+.contact_cover_sec {
+    height: 560px;
+    background-image: url(../images/Rectangle\ 111.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+
+}
+
+@media (max-width: 400px) {
+  /* page 2 shop section */
+
+  .shop {
+    margin-inline: 20px;
+  }
+
+  .shop_t {
+    font-size: 13px;
+  }
+
+  .sort_button {
+    padding: 4px;
+  }
+
+  .page_numbers {
+    width: 34px;
+    height: 34px;
+  }
+}

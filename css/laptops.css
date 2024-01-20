@@ -1,0 +1,257 @@
+@media (max-width: 1300px) {
+  /* section3  */
+
+  .section3 {
+    padding-inline: 32px;
+  }
+
+  .sec3_div1,
+  .sec3_div2 {
+    column-gap: 24px;
+  }
+
+  .sec3_pic1 {
+    width: 591px;
+    height: 332px;
+    object-fit: cover;
+  }
+
+  .sec3_pic2 {
+    width: 345px;
+    height: 332px;
+    object-fit: cover;
+  }
+
+  .sec3_pic4,
+  .sec3_pic3 {
+    width: 283.5px;
+    height: 260px;
+    object-fit: cover;
+  }
+
+  .sec3_pic5 {
+    width: 345px;
+    height: 260px;
+    object-fit: cover;
+  }
+
+  /* section4  */
+  .section4 {
+    padding-inline: 32px;
+  }
+
+  /* section6  */
+  .section6 {
+    padding-inline: 32px;
+  }
+
+  .article_div {
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  .article1_and_2 {
+    justify-content: center;
+  }
+
+  .article1,
+  .article2 {
+    width: calc(500 / 1024 * 100%);
+  }
+
+  .article3 {
+    width: 99%;
+  }
+}
+
+/* page 2 styles */
+
+@media (max-width: 1279px) {
+  /* sec2 shop section */
+
+  .shop {
+    margin-inline: 32px;
+    width: calc(960 / 1024 * 100%);
+  }
+
+  .shop_div {
+    width: calc(1190 / 1279 * 100%);
+  }
+  .shop_card {
+    width: calc(468 / 1024 * 100%);
+  }
+
+  .pottery {
+    width: 100%;
+    height: 240px;
+  }
+
+  .disapiar {
+    display: none;
+  }
+
+  /* page 3 contact */
+
+  /* .contact_map_section {
+    width: calc(960 / 1024 * 100%);
+  } */
+  .contact_form {
+    top: 160px;
+    left: 32px;
+  }
+
+  .contact_info_main_div1 {
+    column-gap: 130px;
+  }
+
+  iframe {
+    width: 714px;
+  }
+}
+
+/* uketesi gadasvlistvis */
+
+@media (max-width: 1121px) {
+  /* header  */
+  header {
+    padding-inline: 32px;
+  }
+
+  /* page 3 cotact map part  */
+  .contact_info_main_div1 {
+    column-gap: 71px;
+  }
+  .scale_style:hover {
+    scale: 1.001;
+    transition: 0.2s linear;
+    box-shadow: 0 0 5px #d5906e, 0 0 5px #d5906e, 0 0 5px #d5906e,
+      0 0 5px #d5906e;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+}
+
+/* mocemuli dizainebi 1024ze  */
+
+@media (max-width: 1024px) {
+  /* section3  */
+
+  .section3 {
+    padding-inline: 32px;
+  }
+
+  .sec3_pic1 {
+    width: calc(680 / 744 * 100%);
+  }
+
+  .sec3_pic2 {
+    width: calc(690 / 744 * 100%);
+  }
+
+  .sec3_pic3,
+  .sec3_pic5 {
+    width: calc(336 / 744 * 100%);
+  }
+
+  /* footer  */
+
+  footer {
+    padding: 32px;
+  }
+}
+
+@media (max-width: 970px) {
+  /* section3  */
+
+  .section3 {
+    padding-inline: 0;
+  }
+
+  .sec3_div1 {
+    flex-direction: column;
+    align-items: center;
+    row-gap: 40px;
+  }
+
+  .sec3_pic4 {
+    display: none;
+  }
+
+  /* contact map section  */
+
+  .map_main_div {
+    padding: 0;
+  }
+
+  .contact_info_main_div1 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contact_info_div1 {
+    margin: 40px auto;
+  }
+}
+
+@media (max-width: 830px) {
+  /* header  */
+  header {
+    padding-inline: 24px;
+  }
+
+  .header_nav {
+    padding: 25px 82px;
+    width: 240px;
+    position: fixed;
+    top: 98px;
+    left: -100%;
+    background-color: rgba(64, 33, 1, 0.8);
+    transition: 0.4s linear;
+  }
+
+  .header_ul {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+  }
+
+  .fa-bars {
+    display: block;
+  }
+
+  .show {
+    left: 0;
+  }
+
+  /* background image section */
+
+  .section1_div {
+    margin-inline: 40px;
+  }
+
+  /* section2 poto orientation */
+
+  .section2 {
+    flex-direction: column;
+    row-gap: 40px;
+  }
+
+  /* section6  */
+
+  .section6 {
+    padding-inline: 24px;
+  }
+
+  .article1_and_2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 24px;
+  }
+  .article1,
+  .article2,
+  .article3 {
+    width: 100%;
+  }
+}
