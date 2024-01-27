@@ -1,0 +1,76 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(to right, #db6934, #b95729);
+    background-image: url(../images/cover1.png);
+}
+
+.container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    width: 400px;
+    height: 500px;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.forget_pass{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+a{
+    font-size: 20px;
+    display: inline-block;
+    color: #db9334;
+}
+
+
+h2 {
+    color: #db8534;
+    margin-bottom: 20px;
+}
+
+label {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #555;
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #db8d34;
+    color: #fff;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+    margin-bottom: 10px;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+.error-message {
+    color: #e74c3c;
+    margin-top: 15px;
+    font-size: 14px;
+}

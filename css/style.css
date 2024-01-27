@@ -957,3 +957,27 @@ iframe {
 .width_1 {
   width: 155px;
 }
+
+
+/*  api section  */
+.api_main{
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 60px;
+  margin-inline: auto;
+}
+.weather{
+  color: #b53b1b;
+  margin-bottom: 10px;
+}
+
+#longitute, #latitute {
+  margin: 10px;
+  border: 2px solid rgb(209, 79, 19);
+  border-radius: 10px;
+  
+
+}

@@ -36,7 +36,7 @@
                 <li class="header_li">
                     <a href="artworks.html" class="header_a hover_effect">Artworks</a>
                 </li>
-                <li class="header_li"><a href="contact.html" class="header_a active hover_effect">About us</a>
+                <li class="header_li"><a href="aboutus.html" class="header_a active hover_effect">About us</a>
                 </li>
             </ul>
         </nav>
@@ -46,7 +46,7 @@
         </a>
 
         <div class="header_button_div">
-            <button class="header_button hover_effect">Sign In</button>
+            <a href="signin.html"><button class="header_button hover_effect">Sign up</button></a>
             <i class="fa-solid fa-cart-shopping scale_style"></i>
         </div>
     </header>
@@ -93,6 +93,15 @@
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2978.911230291333!2d44.794574600000004!3d41.700852000000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40440cdd1af7ece7%3A0xa0647da208fff81e!2zMzAg4YOo4YOd4YOX4YOQIOGDoOGDo-GDoeGDl-GDkOGDleGDlOGDmuGDmOGDoSDhg5Lhg5Dhg5vhg5bhg5jhg6Dhg5gsIOGDl-GDkeGDmOGDmuGDmOGDoeGDmA!5e0!3m2!1ska!2sge!4v1699613201855!5m2!1ska!2sge" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="mapp"></iframe>
             </div>
         </div>
+    </section>
+    <!-- api section -->
+    <section class="api_main">
+        <P class="weather">Check Weather On My site</P>
+        <input id="longitute" placeholder="Enter longitute">
+        <input id="latitute" placeholder="Enter latitute">
+        <button type="submit" id="submitData" onclick="resolveWeatherInfo()">Send</button>
+        <div id="result1"></div>
+        
     </section>
 
 
